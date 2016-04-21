@@ -1,0 +1,32 @@
+@import 'vars';
+@import 'typography';
+@import "angular-material";
+@import "angular-material.layouts";
+@import "angular-material.layout-attributes";
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: $font-color--dark;
+  background-color: $background--light;
+  padding: $half-space;
+    height: auto;
+}
+
+.heading_right {
+    text-align: right;
+    float: right;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.add-virtual-device {
+
+    ul li {
+        list-style-type: none;
+        display: inline;
+        cursor: pointer;
+    }
+
+}

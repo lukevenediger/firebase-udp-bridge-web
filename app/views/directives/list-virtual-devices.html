@@ -1,0 +1,15 @@
+<div flex-gt-sm="50" flex class="list-virtual-devices">
+    <md-list flex>
+        <md-list-item class="md-2-line"
+                      ng-repeat="template in templates"
+                      ng-click="addDevice(template)">
+            <img ng-src="https://material.angularjs.org/latest/img/list/60.jpeg"
+                 class="md-avatar"
+                 alt="{{ template.title }}" />
+            <div class="md-list-item-text" layout="column">
+                <h3>{{ template.title }}</h3>
+                <p>{{ template.description }}</p>
+            </div>
+        </md-list-item>
+    </md-list>
+</div>

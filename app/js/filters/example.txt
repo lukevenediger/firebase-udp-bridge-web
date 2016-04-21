@@ -1,0 +1,10 @@
+function ExampleFilter() {
+
+  return function(input) {
+    var a = 1;
+    return input.replace(/keyboard/ig,'leopard');
+  };
+
+}
+
+module.exports = ExampleFilter
